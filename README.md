@@ -66,10 +66,17 @@ For each of the above, we will need to:
 We use the above to answer the following questions:
 
 * Which model had the best balanced accuracy score?
->
+
+> SMOTEENN and SMOTE resampled logistic regression models have the best balanced accuracy score
+
 * Which model had the best recall score?
->
+
+> All the models have same avg/total recall score (0.99)
+
 * Which model had the best geometric mean score?
+
+> All the models have the same avg/total geo score (0.99)
+
 
 #### Ensemble Learning
 
@@ -101,11 +108,22 @@ We use the above to answer the following questions:
 
 * Which model had the best balanced accuracy score?
 
+> EasyEnsembleClassifier has a better balanced accuracy (0.925).
+
 * Which model had the best recall score?
+
+> Both have the same recall score (0.91 to 0.77)
 
 * Which model had the best geometric mean score?
 
+> Both have the same geometric mean score (0.78)
+
 * What are the top three features?
 
+> From the Balanced Random Forest Classifier, the top features are 
+    total_rec_prncp, 
+    total_rec_int, 
+    total_pymnt_inv .
+    
 - - -
 
