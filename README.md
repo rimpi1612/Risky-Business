@@ -19,7 +19,7 @@ We are building and evaluating several machine learning models to predict credit
 
 [Ensemble Starter Notebook](Notebook/credit_risk_ensemble.ipynb)
 
-[Lending Club Loans Data](Data/LoanStats_2019Q1.csv.zip)
+[Lending Club Loans Data](Data/LoanStats_2019Q1.csv)
 
 - - -
 
